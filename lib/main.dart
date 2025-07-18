@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 // Page Imports
 import 'package:karcolor/pages/home_page.dart';
 import 'package:karcolor/pages/search_page.dart';
+import 'package:karcolor/pages/generator_page.dart';
 
 // Theme Imports
 import 'package:karcolor/themes/dark_theme.dart';
@@ -72,6 +73,7 @@ class App extends StatelessWidget {
       routes: {
         "/": (context) => HomePage(),
         "/search": (context) => SearchPage(),
+        "/generator": (context) => GeneratorPage(),
       },
       initialRoute: "/",
     );

@@ -16,5 +16,5 @@ ThemeData darkTheme = ThemeData(
 
   appBarTheme: AppBarTheme(
     backgroundColor: Color(0xFF000000),
-  )
+  ),
 );
